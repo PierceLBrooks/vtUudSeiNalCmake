@@ -1,5 +1,6 @@
 #!/bin/sh
 
+rm $PWD/._*
 rm $PWD/build.log
 rm -rf $PWD/build
 rm -rf $PWD/install
