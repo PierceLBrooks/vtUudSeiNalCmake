@@ -1,0 +1,10 @@
+/build
+/install
+*.mp4
+*.log
+*.264_*
+h264_analyze*
+svc_split*
+VtUudSeiNalCmake*
+.DS_Store
+
