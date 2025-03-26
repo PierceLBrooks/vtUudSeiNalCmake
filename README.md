@@ -1,9 +1,10 @@
 # Compiling & Testing
 
 ```
-brew install ffmpeg cmake
+brew install ffmpeg cmake git
+git submodule update --init --recursive
 $PWD/build.sh Debug
-$PWD/run.sh  2>&1 | tee $PWD/run.log
+$PWD/run.sh 2>&1 | tee $PWD/run.log
 ```
 
 # Output Expectation
